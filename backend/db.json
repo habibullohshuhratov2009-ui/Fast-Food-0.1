@@ -1,0 +1,313 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "price": 25000,
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+      "description": "Mazali mol go'shtli burger",
+      "available": true,
+      "createdAt": "2026-04-19T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Lavash",
+      "price": 28000,
+      "categoryId": 2,
+      "image": "https://images.unsplash.com/photo-1626804475297-4160bbdf4249?auto=format&fit=crop&w=800&q=80",
+      "description": "Katta tovuqli lavash pishloq bilan",
+      "available": true,
+      "createdAt": "2026-04-19T10:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Cola",
+      "price": 10000,
+      "categoryId": 4,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80",
+      "description": "Muzdek Coca-Cola (0.5l)",
+      "available": true,
+      "createdAt": "2026-04-19T10:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Tovuqli burger",
+      "price": 24000,
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+      "description": "Qarsildoq tovuqli maxsus burger",
+      "available": true,
+      "createdAt": "2026-04-19T10:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Sprite",
+      "price": 10000,
+      "categoryId": 4,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80",
+      "description": "Muzdek Sprite (0.5l)",
+      "available": true,
+      "createdAt": "2026-04-19T10:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Cheeseburger",
+      "price": 28000,
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+      "description": "Mazali pishloqli burger",
+      "available": true,
+      "createdAt": "2026-04-20T10:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Katta Lavash",
+      "price": 32000,
+      "categoryId": 2,
+      "image": "https://images.unsplash.com/photo-1626804475297-4160bbdf4249?auto=format&fit=crop&w=800&q=80",
+      "description": "Mol go'shtidan tayyorlangan katta lavash",
+      "available": true,
+      "createdAt": "2026-04-20T10:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Fri (O'rtacha)",
+      "price": 15000,
+      "categoryId": 3,
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?auto=format&fit=crop&w=800&q=80",
+      "description": "Qarsildoq qovurilgan kartoshka",
+      "available": true,
+      "createdAt": "2026-04-20T10:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Naggets (6 dona)",
+      "price": 18000,
+      "categoryId": 3,
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80",
+      "description": "Tovuq go'shtidan naggetslar",
+      "available": true,
+      "createdAt": "2026-04-20T10:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Fanta",
+      "price": 10000,
+      "categoryId": 4,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80",
+      "description": "Muzdek Fanta (0.5l)",
+      "available": true,
+      "createdAt": "2026-04-20T10:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Muzqaymoq",
+      "price": 12000,
+      "categoryId": 5,
+      "image": "https://images.unsplash.com/photo-1559703248-dcaaec9fab78?auto=format&fit=crop&w=800&q=80",
+      "description": "Shokoladli va vanilli muzqaymoq",
+      "available": true,
+      "createdAt": "2026-04-20T10:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Shokoladli Milkshake",
+      "price": 18000,
+      "categoryId": 5,
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
+      "description": "Quyuq shokoladli milkshake",
+      "available": true,
+      "createdAt": "2026-04-20T10:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Burger",
+          "price": 25000,
+          "qty": 2
+        },
+        {
+          "productId": 3,
+          "name": "Cola",
+          "price": 10000,
+          "qty": 1
+        }
+      ],
+      "total": 60000,
+      "status": "done",
+      "createdAt": "2026-04-20T09:22:58.516Z",
+      "readableTime": "14:22",
+      "startedAt": "2026-04-20T09:22:58.533Z",
+      "completedAt": "2026-04-20T09:22:58.534Z"
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Burger",
+          "price": 25000,
+          "qty": 1
+        },
+        {
+          "productId": 2,
+          "name": "Lavash",
+          "price": 28000,
+          "qty": 1
+        },
+        {
+          "productId": 3,
+          "name": "Cola",
+          "price": 10000,
+          "qty": 1
+        }
+      ],
+      "total": 63000,
+      "status": "done",
+      "createdAt": "2026-04-20T09:27:06.300Z",
+      "readableTime": "14:27",
+      "startedAt": "2026-04-20T12:13:18.999Z",
+      "completedAt": "2026-04-20T12:13:28.454Z"
+    },
+    {
+      "id": 3,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Burger",
+          "price": 25000,
+          "qty": 1
+        },
+        {
+          "productId": 2,
+          "name": "Lavash",
+          "price": 28000,
+          "qty": 2
+        },
+        {
+          "productId": 4,
+          "name": "Tovuqli burger",
+          "price": 24000,
+          "qty": 2
+        }
+      ],
+      "total": 129000,
+      "status": "done",
+      "createdAt": "2026-04-20T12:13:36.886Z",
+      "readableTime": "17:13",
+      "startedAt": "2026-04-20T12:13:41.535Z",
+      "completedAt": "2026-04-20T12:13:45.301Z"
+    },
+    {
+      "id": 4,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Burger",
+          "price": 25000,
+          "qty": 1
+        },
+        {
+          "productId": 2,
+          "name": "Lavash",
+          "price": 28000,
+          "qty": 1
+        },
+        {
+          "productId": 3,
+          "name": "Cola",
+          "price": 10000,
+          "qty": 1
+        },
+        {
+          "productId": 4,
+          "name": "Tovuqli burger",
+          "price": 24000,
+          "qty": 1
+        }
+      ],
+      "total": 87000,
+      "status": "done",
+      "createdAt": "2026-04-20T12:32:22.001Z",
+      "readableTime": "17:32",
+      "startedAt": "2026-04-20T12:32:29.986Z",
+      "completedAt": "2026-04-20T12:32:34.201Z"
+    },
+    {
+      "id": 5,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Burger",
+          "price": 25000,
+          "qty": 1
+        },
+        {
+          "productId": 2,
+          "name": "Lavash",
+          "price": 28000,
+          "qty": 1
+        },
+        {
+          "productId": 3,
+          "name": "Cola",
+          "price": 10000,
+          "qty": 1
+        },
+        {
+          "productId": 4,
+          "name": "Tovuqli burger",
+          "price": 24000,
+          "qty": 1
+        }
+      ],
+      "total": 87000,
+      "status": "done",
+      "createdAt": "2026-04-21T12:37:34.452Z",
+      "readableTime": "17:37",
+      "startedAt": "2026-04-21T12:37:37.932Z",
+      "completedAt": "2026-04-21T12:37:44.115Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "cashier",
+      "password": "1234",
+      "role": "cashier",
+      "name": "Sarah Johnson"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Burgers",
+      "icon": "🍔"
+    },
+    {
+      "id": 2,
+      "name": "Chicken & Wraps",
+      "icon": "🌯"
+    },
+    {
+      "id": 3,
+      "name": "Sides",
+      "icon": "🍟"
+    },
+    {
+      "id": 4,
+      "name": "Drinks",
+      "icon": "🥤"
+    },
+    {
+      "id": 5,
+      "name": "Desserts",
+      "icon": "🍨"
+    }
+  ]
+}
